@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  #game {
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    background: #222;
+    position: relative;
+    border: 3px solid #555;
+    overflow: hidden;
+  }
+  .snake-part {
+    width: 20px;
+    height: 20px;
+    background: lime;
+    position: absolute;
+  }
+  .food {
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+  }
+  #wordDisplay {
+    font-size: 24px;
+    margin: 10px;
+  }
+  #inputArea {
+    margin: 10px;
+  }
+  input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+  }
+  #score {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  #gameOverUI {
+    display: none;
+    margin-top: 20px;
+  }
+  #gameOverUI input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+  }
+  #gameOverUI button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  #definition {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
